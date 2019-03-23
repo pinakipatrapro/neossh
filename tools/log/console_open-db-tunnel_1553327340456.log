@@ -1,0 +1,17 @@
+2019-03-23 13:19:00,972 INFO  [main] com.sap.jpaas.infrastructure.console.ConsoleLogger: Arguments:   -h hanatrial.ondemand.com -a p1940667919trial -u p1940667919 -i pinaki -p ********
+2019-03-23 13:19:02,872 INFO  [main] com.sap.jpaas.infrastructure.console.ConsoleLogger: Starting execution of command [open-db-tunnel]
+2019-03-23 13:19:03,228 INFO  [pool-2-thread-1] com.sap.jpaas.infrastructure.console.ConsoleLogger: No SDK status file for your configuration was found. Creating a new status file...
+2019-03-23 13:19:05,892 ERROR [main] com.sap.jpaas.infrastructure.console.ConsoleLogger: Version validity status could not be obtained within 3 seconds. This should not affect the command's execution.
+2019-03-23 13:19:07,048 INFO  [main] com.sap.jpaas.infrastructure.console.ConsoleLogger: There is no tools page available on host hanatrial.ondemand.com. The default tools page on host hana.ondemand.com will be used instead. This is expected behaviour as some hosts do not have corresponding tools pages
+2019-03-23 13:19:07,052 INFO  [pool-3-thread-1] com.sap.jpaas.infrastructure.console.ConsoleLogger: No SDK status file for your configuration was found. Creating a new status file...
+2019-03-23 13:19:09,344 INFO  [pool-3-thread-1] com.sap.jpaas.infrastructure.console.ConsoleLogger: Successfully performed version validity check. The returned status is UPDATE_AVAILABLE
+2019-03-23 13:19:09,352 INFO  [main] com.sap.jpaas.infrastructure.console.ConsoleLogger: Version validity check is completed
+2019-03-23 13:19:09,352 INFO  [main] com.sap.jpaas.infrastructure.console.ConsoleLogger: Command [open-db-tunnel] init() finished for [6480] ms
+2019-03-23 13:19:09,364 INFO  [main] com.sap.core.tunnelcommands.framework.executor.CommandTunnelRequestExecutor: CommandTunnelRequestExecutor.executeRequest() called for command [open-db-tunnel] (version: 1.3.0)
+2019-03-23 13:19:17,544 INFO  [tunnel-client-2-1] com.sap.core.connectivity.tunnel.client.handshake.ClientProtocolHandshaker: Sending handshake request for tunnel: jdbc:///pinaki/t7a0ccafde330474ca1115ca27c958ad1 and host connectivitytunnel.hanatrial.ondemand.com:443
+2019-03-23 13:19:19,220 INFO  [tunnel-client-2-1] com.sap.core.connectivity.tunnel.core.impl.context.TunnelRegistryImpl: Registered tunnel channel [id: 0x2df9448c, L:/172.20.10.5:64416 - R:connectivitytunnel.hanatrial.ondemand.com/155.56.219.27:443] for tunnel id "jdbc:///pinaki/t7a0ccafde330474ca1115ca27c958ad1" and client id "22694f10-14ae-415b-a783-479b741e014d"
+2019-03-23 13:19:19,224 INFO  [main] com.sap.core.connectivity.tunnel.client.AbstractTunnelClient: Successfully established tunnel: [id: 0x2df9448c, L:/172.20.10.5:64416 - R:connectivitytunnel.hanatrial.ondemand.com/155.56.219.27:443]
+2019-03-23 13:19:21,320 INFO  [main] com.sap.core.connectivity.tunnel.core.impl.proxy.AbstractProxyServer: Started proxy server at port: 30015
+2019-03-23 13:19:21,320 INFO  [main] com.sap.core.connectivity.tunnel.core.impl.proxy.AbstractProxyServer: Proxy server pool size: 20
+2019-03-23 13:19:21,320 INFO  [main] com.sap.core.connectivity.tunnel.core.impl.proxy.AbstractProxyServer: Proxy server max heap per channel: 4194304
+2019-03-23 13:19:21,320 INFO  [main] com.sap.core.connectivity.tunnel.core.impl.proxy.AbstractProxyServer: Proxy server max heap for all channels: 134217728
